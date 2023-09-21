@@ -1,12 +1,17 @@
-﻿using System;
-// See https://aka.ms/new-console-template for more information
-internal class Program {
-    public static void Main(string[] args)
-{
-    Console.WriteLine("Khai bao va gan gia tri:");
-String hoten = "Nguyen Hong Hieu";
-int songuyen = 20;
+﻿using newApp.Models;
 
-Console.WriteLine("Gan gia tri: {0}-{1}",hoten,songuyen);
+public class Program{
+    public static void Main(string[] args)
+    {
+        Employeeclass bai1 = new Employeeclass();
+        Employeeclass bai2 = new Employeeclass();
+bai1.nhapdulieu();
+bai1.Display();
+bai2.Display();
+
+    }
+
 }
-}
+
+
+
